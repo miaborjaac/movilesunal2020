@@ -7,7 +7,7 @@
              x:Class="Reto0.MainPage">
 
     <StackLayout>
-        <Frame HasShadow="True" BackgroundColor="Blue">
+        <Frame HasShadow="True" BackgroundColor="#0170fe">
             <Label Text="Reto 0 - 27/08/2020"
                    TextColor="White"
                    FontSize="Large"
@@ -19,12 +19,18 @@
                FontSize="Large"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
-        <Label Text="Desarrollo de aplicaciones móviles."
-               TextColor="Blue"
-               FontSize="Large"
-               Padding="40 0"
-               HorizontalOptions="Center"
-               VerticalOptions="End" />
+        <StackLayout VerticalOptions="End">
+            <Label Text="Desarrollo de aplicaciones móviles."
+                   TextColor="Blue"
+                   FontSize="Large"
+                   Padding="0, 0, 0, 0"
+                   HorizontalOptions="Center" />
+            <Label Text="Prof. Jorge Eliécer Camargo"
+                   TextColor="Blue"
+                   FontSize="18"
+                   Padding="0, 10, 0, 40"
+                   HorizontalOptions="Center" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
