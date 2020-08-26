@@ -21,12 +21,12 @@
                VerticalOptions="CenterAndExpand" />
         <StackLayout VerticalOptions="End">
             <Label Text="Desarrollo de aplicaciones móviles."
-                   TextColor="Blue"
+                   TextColor="#0170fe"
                    FontSize="Large"
                    Padding="0, 0, 0, 0"
                    HorizontalOptions="Center" />
             <Label Text="Prof. Jorge Eliécer Camargo"
-                   TextColor="Blue"
+                   TextColor="#0170fe"
                    FontSize="18"
                    Padding="0, 10, 0, 40"
                    HorizontalOptions="Center" />
