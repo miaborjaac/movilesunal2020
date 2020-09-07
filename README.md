@@ -1,6 +1,9 @@
 # Desarrollo de aplicaciones móviles
+## Autor
 Miguel Angel Borja Acevedo
-Maestría en Ingeniería de sistemas y computación
+## Programa
+Maestría en Ingeniería de Sistemas y Computación
+## Universidad
 Universidad Nacional de Colombia
 
 #### Reto 0: Hola Mundo en Android
