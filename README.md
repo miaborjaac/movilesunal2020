@@ -1,10 +1,12 @@
 # Desarrollo de aplicaciones móviles
-### Autor
+### Autor:
 Miguel Angel Borja Acevedo
-### Programa
+### Programa:
 Maestría en Ingeniería de Sistemas y Computación
-### Universidad
+### Universidad:
 Universidad Nacional de Colombia
+
+### Retos:
 
 #### Reto 0: Hola Mundo en Android
 Implementado en Xamarin Forms.
