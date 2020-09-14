@@ -19,5 +19,5 @@ Archivo PDF con la descripción del proyecto a realizar.
 * Archivo .bmpr con los Mockups de la aplicación.
 * Archivo .xlsx con el Modelo canvas y de negocio.
 
-#### Reto 2: Interfaz Gráfica
+#### Reto 3: Interfaz Gráfica
 Creación del juego Triqui por medio de Unity.
