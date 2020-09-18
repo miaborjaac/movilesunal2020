@@ -21,3 +21,7 @@ Archivo PDF con la descripción del proyecto a realizar.
 
 #### Reto 3: Interfaz Gráfica
 Creación del juego Triqui por medio de Unity.
+
+#### Reto 4: Menús y Diálogos
+Creación del juego Triqui por medio de Unity.
+Agregando opción de comenzar un juego nuevo, seleccionar dificultad y salir.
