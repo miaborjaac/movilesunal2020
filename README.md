@@ -29,3 +29,7 @@ Agregando opción de comenzar un juego nuevo, seleccionar dificultad y salir.
 #### Reto 5: Incorporando gráficos y audio
 Creación del juego Triqui por medio de Unity.
 Se agregaron sonidos en los movimientos del jugador y máquina, además del sonido al finalizar el juego.
+
+#### Reto 6: Preferencias
+Creación del juego Triqui por medio de Unity.
+Se agregaron configuraciones como sonido, mensaje de victoria y dificultad.
