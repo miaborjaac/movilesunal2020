@@ -33,3 +33,7 @@ Se agregaron sonidos en los movimientos del jugador y máquina, además del soni
 #### Reto 6: Preferencias
 Creación del juego Triqui por medio de Unity.
 Se agregaron configuraciones como sonido, mensaje de victoria y dificultad.
+
+#### Reto 7: Jugando Online
+Creación del juego Triqui por medio de Unity.
+El juego permite jugar online con las características del juego. La conexión online se hizo por medio de Photon Engine.
