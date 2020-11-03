@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:Reto8.ViewModels" 
+             mc:Ignorable="d"
+             Title="Agregar Contacto"
+             x:Class="Reto8.Views.ContactEntryPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30">
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Nombre de la empresa"
+                           TextColor="Black" />
+                    <Entry Placeholder="Ingresa el nombre"
+                           Text="{Binding Name}" />
+                </StackLayout>
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Página web de la empresa"
+                           TextColor="Black" />
+                    <Entry Placeholder="Ingresa la url"
+                           Keyboard="Url"
+                           Text="{Binding WebPageUrl}" />
+                </StackLayout>
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Teléfono de la empresa"
+                           TextColor="Black" />
+                    <Entry Placeholder="Ingresa el teléfono"
+                           Keyboard="Telephone"
+                           Text="{Binding Phone}" />
+                </StackLayout>
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Correo de la empresa"
+                           TextColor="Black" />
+                    <Entry Placeholder="Ingresa el correo"
+                           Keyboard="Email"
+                           Text="{Binding Email}" />
+                </StackLayout>
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Servicios de la empresa"
+                           TextColor="Black" />
+                    <Entry Placeholder="Ingresa los servicios"
+                           Text="{Binding Services}" />
+                </StackLayout>
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Clasificación de la empresa"
+                           TextColor="Black" />
+                    <Picker ItemsSource="{Binding ContactTypes, Source={local:ContactEntryViewModel}}"
+                            SelectedItem="{Binding ContactType}"
+                            SelectedIndexChanged="OnSelectedIndexChanged"/>
+                </StackLayout>
+                
+                <Button x:Name="SaveButton"
+                        Text="Guardar"
+                        BackgroundColor="LightCoral"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="50"
+                        VerticalOptions="EndAndExpand"
+                        Clicked="OnSaveButtonClicked" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

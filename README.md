@@ -37,3 +37,6 @@ Se agregaron configuraciones como sonido, mensaje de victoria y dificultad.
 #### Reto 7: Jugando Online
 Creación del juego Triqui por medio de Unity.
 El juego permite jugar online con las características del juego. La conexión online se hizo por medio de Photon Engine.
+
+#### Reto 8: Almacenamiento en Android con SQLite
+Implementación de la aplicación con Xamarin Forms.

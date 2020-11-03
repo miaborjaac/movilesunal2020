@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Reto8.Views.AboutPage"
+             xmlns:vm="clr-namespace:Reto8.ViewModels"
+             Title="{Binding Title}">
+    <StackLayout Padding="50">
+        <StackLayout VerticalOptions="Start">
+            <Label Text="Reto 8"
+                   FontAttributes="Bold"
+                   FontSize="25"
+                   HorizontalOptions="Center"/>
+            <Label Text="Almacenamiento en Android con SQLite"
+                   FontAttributes="Italic"
+                   FontSize="18"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Presentado por:"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalOptions="Center"/>
+            <Label Text="Miguel Angel Borja Acevedo"
+                   FontAttributes="Italic"
+                   FontSize="16"
+                   Margin="0,0,0,20"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Center"/>
+            <Label Text="Presentado para:"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalOptions="Center"/>
+            <Label Text="Desarrollo de Aplicaciones para Dispositivos Móviles"
+                   FontAttributes="Italic"
+                   FontSize="16"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Label Text="2020"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

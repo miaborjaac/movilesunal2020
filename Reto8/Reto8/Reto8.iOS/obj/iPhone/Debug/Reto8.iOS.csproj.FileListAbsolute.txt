@@ -1,0 +1,8 @@
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\optimized\
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\Reto8.iOS.csprojAssemblyReference.cache
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto8\Reto8\Reto8.iOS\obj\iPhone\Debug\Reto8.iOS.csproj.CoreCompileInputs.cache
