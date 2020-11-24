@@ -1,0 +1,15 @@
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\bin\Debug\netstandard2.0\Reto10.deps.json
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\bin\Debug\netstandard2.0\Reto10.dll
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\bin\Debug\netstandard2.0\ref\Reto10.dll
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\bin\Debug\netstandard2.0\Reto10.pdb
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Reto10.AssemblyInfoInputs.cache
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Reto10.AssemblyInfo.cs
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Reto10.dll
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\ref\Reto10.dll
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Reto10.pdb
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Reto10.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Reto10.csprojAssemblyReference.cache
+C:\Users\migue\Documents\UNIVERSIDAD\POSGRADO\Moviles\movilesunal2020\Reto10\Reto10\Reto10\obj\Debug\netstandard2.0\Views\ResultPage.xaml.g.cs

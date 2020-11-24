@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converters="clr-namespace:Reto10.Controls"
+             mc:Ignorable="d"
+             Title="{Binding Title}"
+             x:Class="Reto10.Views.ResultPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:Converter x:Key="stringToInt" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding Response}"
+                  SeparatorColor="Black"
+                  SelectionMode="None"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="30,10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="7*" />
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Row="0"
+                                   Grid.Column="0"
+                                   Text="{Binding Sistema}"
+                                   FontSize="16"
+                                   TextColor="LightCoral"
+                                   VerticalTextAlignment="Center"
+                                   FontAttributes="Bold" />
+                            <Label Grid.Row="0"
+                                   Grid.Column="1"
+                                   Text="{Binding Fecha}"
+                                   HorizontalOptions="End"
+                                   FontSize="16"
+                                   VerticalTextAlignment="Center"
+                                   TextColor="LightCoral"/>
+                            <Label Grid.Row="1"
+                                   FontSize="16"
+                                   Text="{Binding Ciudad}" />
+                            <Label Grid.Row="2"
+                                   FontSize="16"
+                                   Text="{Binding Pasajeros_dia, Converter={StaticResource stringToInt}, StringFormat='Pasajeros/Día: {0:N0}'}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

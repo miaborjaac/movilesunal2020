@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="{Binding Title}"
+             x:Class="Reto10.MainPage">
+    <StackLayout Padding="30,0">
+        <StackLayout x:Name="homeContent">
+            <Label Text="Conjunto de datos que contiene información relacionada con la cantidad de pasajeros que se transportan en el transporte masivo en Colombia." 
+                   Padding="0,20,0,0"
+                   FontSize="18"
+                   HorizontalTextAlignment="Center" />
+            <Label Text="Ministerio de Transporte" 
+                   FontSize="16"
+                   TextColor="Black"
+                   Padding="0,10,0,0"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Start" />
+
+            <Label HorizontalOptions="End"
+                   TextColor="#FF4081"
+                   TextDecorations="Underline"
+                   FontSize="18"
+                   Margin="0,10,0,0"
+                   Text="Reestablecer">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ClearValues" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <ScrollView Margin="0,20" Padding="10,0">
+                <StackLayout>
+                    <Label Text="Fecha:"
+                           TextColor="Black"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                    <DatePicker x:Name="datePicker"
+                                Format="dd/MM/yyyy"
+                                DateSelected="DatePicker_DateSelected"/>
+
+                    <Label Text="Ciudad:" 
+                           TextColor="Black"
+                           Margin="0,10,0,0"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                    <Picker x:Name="cityPicker"
+                            ItemsSource="{Binding CitiesList}"
+                            SelectedIndexChanged="OnChangeCity" />
+
+                    <Label Text="Sistema:" 
+                           TextColor="Black"
+                           Margin="0,10,0,0"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                    <Picker x:Name="systemPicker"
+                            ItemsSource="{Binding TransportList}"
+                            SelectedIndexChanged="OnChangeSystem"/>
+
+                    <Label Text="Día de la semana:" 
+                           TextColor="Black"
+                           Margin="0,10,0,0"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                    <Picker x:Name="dayPicker"
+                            ItemsSource="{Binding WeekDays}"
+                            SelectedIndexChanged="OnChangeDay"/>
+
+                    <Button Text="Buscar"
+                            BackgroundColor="#1976D2"
+                            TextColor="White" 
+                            Clicked="Button_Clicked"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+        <ActivityIndicator x:Name="spinner" 
+                           IsVisible="{Binding IsLoading}"
+                           IsRunning="True"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
