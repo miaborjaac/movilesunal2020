@@ -40,3 +40,7 @@ El juego permite jugar online con las características del juego. La conexión o
 
 #### Reto 8: Almacenamiento en Android con SQLite
 Implementación de la aplicación con Xamarin Forms.
+
+#### Reto 10: Consumiendo Web Services
+Implementación de la aplicación con Xamarin Forms.
+Información de Transportes Masivos en Colombia.
